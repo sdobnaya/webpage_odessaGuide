@@ -1,2 +1,5 @@
 # odessa
 
+npm i
+
+gulp
