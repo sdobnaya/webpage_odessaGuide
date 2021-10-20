@@ -1,0 +1,103 @@
+.intro{
+	background: linear-gradient(180deg, rgba(3,39,91,1) 0%, rgba(9,9,121,0) 80%), url(../images/odessa-background.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: -169px;
+
+	@media(max-width:1024px){
+		margin-top: -138px;
+	}
+
+	@media(max-width:992px){
+		margin-top: -85px;
+	}
+}
+
+.g-content{
+	margin: 0 auto;
+}
+
+.g-content-intro{
+	height: 810px;
+	padding: 263px 100px 182px;
+
+	@media(max-width:1024px){
+		height: 576px;
+		padding: 209px 100px 182px;
+	}
+
+	@media(max-width:992px){
+		height: 580px;
+		padding: 193px 20px 130px;
+	}
+}
+
+
+.intro-title{
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 1.2px;
+	font-family: merriweather;
+	color: #fff;
+	line-height: 1.5;
+
+    @media(max-width:1024px){
+		font-size: 44px;
+		letter-spacing: 0.88px;
+		line-height: 80px;
+	}
+
+	@media(max-width:992px){
+		font-size: 21px;
+		letter-spacing: 0.42px;
+		line-height: 38px;
+	}
+}
+
+.intro__link{
+	margin-top: 124px;
+	padding: 18px 37px;
+	background-color:#FFC56E;
+	box-sizing: border-box;
+	font-size: 18px;
+
+	@media(max-width:1024px){
+		margin-top: 52px;
+	}
+
+	@media(max-width:992px){
+		margin-top: 110px;
+		padding: 13px 21px;
+		letter-spacing: 0.24px;
+		line-height: 47%;
+		font-size: 12px;
+	}
+}
+
+.link{
+	border-radius: 50px;
+	font-weight: bold;
+	font-family: merriweather;
+	border: 2px solid transparent;
+	transition: 0.5s;
+	box-sizing: border-box;
+	color: #000;
+
+	&:hover{
+		border: 2px solid #FFC56E;
+		color: #fff;
+		background-color:#03275B;
+	}
+
+	&:focus{
+		border: 2px solid #FFC56E;
+		color: #fff;
+		background-color:#03275B;
+	}	
+}
+
+.link-intro-wrap{
+	display: flex;
+	justify-content: center;
+}

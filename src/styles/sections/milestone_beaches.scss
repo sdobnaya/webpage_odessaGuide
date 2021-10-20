@@ -1,0 +1,136 @@
+.beaches {
+	background-color:#ECEEEF;
+}
+
+.g-content-beaches{
+	padding: 120px 0 83px 0;
+
+	@media(max-width:1280px){
+		padding: 100px 0 73px 0;
+	}
+
+	@media(max-width:992px){
+		padding: 50px 0;
+	}
+}
+
+.beaches-title{
+	margin-bottom: 70px;
+
+	@media(max-width:1280px){
+		margin-bottom: 50px;
+	}
+
+	@media(max-width:992px){
+		margin-bottom: 24px;
+	}
+}
+
+
+.beaches-content-wrap{
+	display: flex;
+
+	@media(max-width:1280px){
+		min-height: 380px;
+	}
+
+	@media(max-width:992px){
+		flex-direction: column-reverse;
+		min-width: 100%;
+	}
+}
+
+.beaches-desc-wrap{
+	margin-left: 150px;
+	margin-right: 100px;
+
+	@media(max-width:1439px){
+		margin-right: 55px;
+		margin-left: 60px;
+	}
+
+	@media(max-width:992px){
+		margin-right: 23px;
+		margin-left: 16px;
+	}
+}
+
+.beaches-desc__title{
+	margin-top: 12px;
+	font-size: 28px;
+	line-height: 0.56;
+	font-family: merriweather;
+	font-weight: bold;
+
+	@media(max-width:1280px){
+		margin-top: 8px;
+		font-size: 20px;
+	}
+
+	@media(max-width:992px){
+		margin-top: 24px;
+		font-size: 16px;
+		letter-spacing: 0.32px;
+	}
+}
+
+.beaches-desc__text{
+	margin-top: 34px;
+	font-size: 16px;
+	font-family: merriweather;
+	line-height: 30px;
+
+	@media(max-width:1280px){
+		margin-top: 24px;
+		font-size: 13px;
+		line-height: 21px;
+	}
+
+	@media(max-width:992px){
+		margin-top: 18px;
+		font-size: 14px;
+		letter-spacing: 0.36px;
+	}
+}
+
+.beaches-link-wrap{
+
+	@media(max-width:992px){
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.beaches__link{
+	display: inline-block;
+	margin-top: 50px;
+	padding: 18px 60px;
+	background-color: #FFC56E;
+	box-sizing: border-box;
+	border: 2px solid transparent;
+	font-size: 18px;
+
+	@media(max-width:1280px){
+		margin-top: 42px;
+		padding: 16px 52px;
+		font-size: 15px;
+	}
+
+	@media(max-width:992px){
+		margin-top: 24px;
+		padding: 12px 36px;
+		font-size: 12px;
+	}
+
+	&:hover{
+		border: 2px solid #FFC56E;
+		color: #fff;
+		background-color:#03275B;
+	}
+
+	&:focus{
+		border: 2px solid #FFC56E;
+		color: #fff;
+		background-color:#03275B;
+	}	
+}

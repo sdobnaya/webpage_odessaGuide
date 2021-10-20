@@ -1,0 +1,38 @@
+[class*="svg-"] { font-size: 20px; position: relative;
+
+	&:before { content: ''; display: block; }
+
+	svg { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+
+}
+
+.svg-icons-facebook-icon { width: (11/20 * 1em);
+
+	&:before { padding-bottom: 20 / 11 * 100%; }
+
+}
+
+.svg-icons-instagram-logo { width: (20/20 * 1em);
+
+	&:before { padding-bottom: 20 / 20 * 100%; }
+
+}
+
+.svg-icons-menu-burger { width: (23/20 * 1em);
+
+	&:before { padding-bottom: 18 / 23 * 100%; }
+
+}
+
+.svg-icons-odessa-logo { width: (56/20 * 1em);
+
+	&:before { padding-bottom: 72 / 56 * 100%; }
+
+}
+
+.svg-icons-twitter-icon { width: (21/20 * 1em);
+
+	&:before { padding-bottom: 18 / 21 * 100%; }
+
+}
+

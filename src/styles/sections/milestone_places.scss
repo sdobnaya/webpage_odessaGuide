@@ -1,0 +1,158 @@
+.g-content-places{
+    padding: 120px 90px;
+
+	@media(max-width:1024px){
+		padding: 100px 50px;
+	}
+
+	@media(max-width:992px){
+		padding: 50px 16px;
+	}
+}
+
+.places-title{
+	margin-bottom: 70px;
+
+	@media(max-width:1024px){
+		margin-bottom: 50px;
+	}
+
+	@media(max-width:992px){
+		margin-bottom: 24px;
+	}
+}
+
+.places-content-wrap{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-row-gap:50px;
+	grid-column-gap:76px;
+
+	@media(max-width:1439px){
+		grid-gap: 36px;
+	}
+
+	@media(max-width:992px){
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr;
+		grid-gap: 42px;
+	}
+}
+
+.places-content-item{
+	display: flex;
+	justify-content: space-between;
+
+	@media(max-width:992px){
+		flex-direction: column;
+	}
+}
+
+.places-item-img{
+	min-width: 240px;
+	height: 240px;
+	flex-basis: 240px;
+
+	@media(max-width:1280px){
+		min-width: 180px;
+		height: 180px;
+		flex-basis: 180px;
+	}
+
+	@media(max-width:992px){
+		min-width: 180px;
+		height: 100%;
+		flex-basis: 180px;
+	}
+
+}
+
+.places-item__img{
+	width: 100%;
+	height: 100%;
+}
+
+.places-item-desc{
+	background-color:#ECEEEF;
+	padding: 20px;
+
+	@media(max-width:1280px){
+		padding: 20px 16px 0 16px;
+	}
+
+	@media(max-width:992px){
+		background-color: #fff;
+		padding: 20px 0 0 0;
+	}
+}
+
+.places-item__title{
+	font-family: merriweather;
+	font-size: 24px;
+	text-align: left;
+	letter-spacing: 0.48px;
+
+	@media(max-width:1280px){
+		font-size: 18px;
+		letter-spacing: 0.36px;
+	}
+}
+
+.places-item__text{
+	font-family: merriweather;
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 20px;
+
+	@media(max-width:1439px){
+		font-size: 12px;
+		line-height: 16px;
+		margin-top: 12px;
+	}
+}
+
+.places-btn-wrap{
+	display: flex;
+	justify-content: center;
+}
+
+.places__btn{
+	box-sizing: border-box;
+	border: 2px solid transparent;
+	font-family: merriweather;
+	font-weight: bold;
+	background-color: #04336D;
+	color: #fff;
+	border-radius: 50px;
+	margin-top:50px;
+	font-size: 18px;
+	letter-spacing: 0.36px;
+	padding: 18px 78px;
+
+	@media(max-width:1024px){
+		margin-top:40px;
+		font-size: 15px;
+		letter-spacing: 0.3px;
+		padding: 16px 67px;
+	}
+
+	@media(max-width:992px){
+		margin-top:42px;
+		font-size: 12px;
+		letter-spacing: 0.24px;
+		padding: 13px 48px;
+	}
+
+	&:hover{
+		border: 2px solid #FFC56E;
+		color: #fff;
+		background-color: #FFC56E;
+	}
+
+	&:focus{
+		border: 2px solid #FFC56E;
+		color: #fff;
+		background-color:#FFC56E;
+	}	
+}
